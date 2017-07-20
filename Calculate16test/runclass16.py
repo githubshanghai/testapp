@@ -4,9 +4,9 @@ import os.path
 
 # del report
 os.system("adb shell rm -rf /sdcard/report.xml")
-filename = 'report.xml'
-if os.path.exists("report.xml"):
-	os.remove("report.xml")
+filename = 'calreport.xml'
+if os.path.exists("calreport.xml"):
+	os.remove("calreport.xml")
 
 # uninstall app and testapp
 os.system("adb uninstall com.example.add")
